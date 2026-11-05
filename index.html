@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Coffee Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>My Coffee Shop</h1>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="home">
+            <h2>Welcome to My Coffee Shop</h2>
+            <p>Enjoy fresh coffee, tasty food and a relaxing atmosphere.</p>
+
+            <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600"
+                 alt="Cup of coffee">
+        </section>
+
+        <section id="menu">
+            <h2>Our Menu</h2>
+
+            <div class="cards">
+
+                <article class="card">
+                    <h3>Cappuccino</h3>
+                    <p>Hot coffee with milk and foam.</p>
+                    <p><b>$4</b></p>
+                </article>
+
+                <article class="card">
+                    <h3>Latte</h3>
+                    <p>Smooth coffee with steamed milk.</p>
+                    <p><b>$5</b></p>
+                </article>
+
+                <article class="card">
+                    <h3>Chocolate Cake</h3>
+                    <p>Fresh and delicious chocolate cake.</p>
+                    <p><b>$6</b></p>
+                </article>
+
+            </div>
+        </section>
+
+        <section>
+            <h2>How to Make Coffee</h2>
+
+            <ol type="A">
+                <li>Boil the water</li>
+                <li>Add coffee</li>
+                <li>Add milk</li>
+                <li>Serve and enjoy</li>
+            </ol>
+        </section>
+
+        <section>
+            <h2>Opening Hours</h2>
+
+            <table>
+                <tr>
+                    <th>Day</th>
+                    <th>Time</th>
+                </tr>
+                <tr>
+                    <td>Monday - Friday</td>
+                    <td>8 AM - 8 PM</td>
+                </tr>
+                <tr>
+                    <td>Saturday - Sunday</td>
+                    <td>9 AM - 6 PM</td>
+                </tr>
+            </table>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+
+            <form>
+                <label>Name:</label>
+                <input type="text" name="name">
+
+                <label>Email:</label>
+                <input type="email" name="email">
+
+                <p>Choose your coffee:</p>
+
+                <input type="radio" name="coffee" value="latte">
+                Latte
+
+                <input type="radio" name="coffee" value="cappuccino">
+                Cappuccino
+
+                <p>
+                    <input type="checkbox" name="newsletter">
+                    Subscribe to our newsletter
+                </p>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 My Coffee Shop</p>
+    </footer>
+
+</body>
+</html>
